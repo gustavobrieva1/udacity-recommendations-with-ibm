@@ -14,6 +14,14 @@ As someone transitioning into data science, I was curious: **What factors truly 
 
 Using machine learning on comprehensive developer survey data, I discovered four key insights that challenge conventional wisdom about tech compensation.
 
+## 📊 The Data Behind the Insights
+
+Before diving into the findings, let's look at our comprehensive dataset analysis:
+
+![Developer Salary Distribution Analysis](salary_distribution_analysis.png)
+
+*Figure 1: Salary distribution analysis across 1,874 developers showing key statistical patterns and outliers*
+
 ## 🚀 Finding #1: Location Isn't Everything (But It's Still Huge)
 
 **The Data:** Swiss developers earn 60% more than the global average, while US developers earn 40% more.
@@ -23,6 +31,12 @@ But here's the twist – it's not just about Silicon Valley anymore. Remote work
 **The Insight:** A fully remote developer can earn Bay Area salaries while living in lower-cost locations, effectively doubling their purchasing power.
 
 > "The new career hack isn't moving to San Francisco – it's getting hired by San Francisco companies while living elsewhere."
+
+Here's how different factors impact salary across categories:
+
+![Categorical Analysis of Salary Factors](categorical_analysis.png)
+
+*Figure 2: Comprehensive analysis showing salary variations across countries, roles, education levels, and company sizes*
 
 ## 🤖 Finding #2: The AI Premium Is Real (And Growing)
 
@@ -106,6 +120,12 @@ My machine learning model achieved 89% accuracy in predicting salaries, meaning 
 - **Geography accounts for 35% of salary variation**
 - **Role specialization accounts for 25%**  
 - **Experience and skills account for 40%**
+
+The correlation matrix below reveals the mathematical relationships between all factors:
+
+![Feature Correlation Matrix](correlation_matrix.png)
+
+*Figure 3: Correlation heatmap showing statistical relationships between salary and all analyzed factors*
 
 ## Your Next Move
 
